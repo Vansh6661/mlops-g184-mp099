@@ -54,5 +54,5 @@ mlops-g184-mp099/
 ├── tests/                      # Unit and integration test suites
 ├── params.yaml                 # Centralized configuration parameters
 ├── README.md                   # Project overview and instructions
-└── requirements.txt            # Pinned Python package dependencies
+└── requirements.txt            # Pinned Python package dependencies.
 ```
