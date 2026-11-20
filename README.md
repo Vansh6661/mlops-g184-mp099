@@ -10,7 +10,7 @@
 - `S24CSEU2266` ---> Vansh Kaushik
 - `S24CSEU2252` ---> Shreya Srivastava
 - `S24CSEU2279` ---> Vedant Singh
-- `S24CSEU2263` ---> Sanyam Singh Roha
+- `S24CSEU2263` ---> Sanyam Singhroha
 
 ---
 
