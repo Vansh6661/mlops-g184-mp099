@@ -1,0 +1,6 @@
+# Configuration parameters for data paths and project settings
+data:
+  raw_train_path: "data/raw/train.csv"
+  raw_later_path: "data/raw/later.csv"
+  raw_holdout_path: "data/raw/holdout_features.csv"
+  target_col: "yield_qtl_per_acre"
