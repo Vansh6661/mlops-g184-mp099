@@ -7,15 +7,17 @@
 - **Batch:** 86
 
 ## Team Members
-- `S24CSEU2266` --- Vansh Kaushik
-- `S24CSEU2252` --- Shreya Srivastava
-- `S24CSEU2279` --- Vedant Singh
-- `S24CSEU2263` --- Sanyam Singh Roha
+- `S24CSEU2266` ---> Vansh Kaushik
+- `S24CSEU2252` ---> Shreya Srivastava
+- `S24CSEU2279` ---> Vedant Singh
+- `S24CSEU2263` ---> Sanyam Singh Roha
 
 ---
 
 ## Project Description
 This project develops an end-to-end MLOps pipeline for the **Bhopal Kisan Producer Company**. The client procures wheat from member farms across Bhopal and needs reliable pre-harvest yield predictions (`yield_qtl_per_acre`) to plan logistics, book transport trucks, and reserve warehouse storage.
+
+By replacing manual, guesswork-based harvest estimates with automated, drift-monitored predictions, this system minimizes post-harvest spoilage, prevents transport bottlenecks, and optimizes capital allocation for warehouse leasing across the Bhopal region.
 
 The solution covers:
 - Versioned data and pipeline management via **DVC** and **Git**.
