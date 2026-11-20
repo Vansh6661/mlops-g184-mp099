@@ -14,7 +14,7 @@
 
 ---
 
-## Project Description
+## Project Description-
 This project develops an end-to-end MLOps pipeline for the **Bhopal Kisan Producer Company**. The client procures wheat from member farms across Bhopal and needs reliable pre-harvest yield predictions (`yield_qtl_per_acre`) to plan logistics, book transport trucks, and reserve warehouse storage.
 
 By replacing manual, guesswork-based harvest estimates with automated, drift-monitored predictions, this system minimizes post-harvest spoilage, prevents transport bottlenecks, and optimizes capital allocation for warehouse leasing across the Bhopal region.
