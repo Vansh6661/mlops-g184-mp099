@@ -21,7 +21,7 @@ data_issues:
     column: null
     value: null            # the special number typed instead of a blank
     count: null            # how many rows have it
-    duplicate_rows:
+  duplicate_rows:
     present: true
     count: 37          # number of EXTRA copies (rows you would delete)
   stuck_sensor:
@@ -38,10 +38,10 @@ data_issues:
     true_levels: 3     # how many real categories there are after cleaning
 
 tracking:
-  experiment_name: null
-  best_run_id: null        # the MLflow run id of your v1 model
-  registered_model_name: null
-  champion_version: null
+  experiment_name: "wheat_yield_mp099"
+  best_run_id: "a66d307c8e0c40febf75139192893558"       # the MLflow run id of your v1 model
+  registered_model_name: "mp099_wheat_yield"
+  champion_version: 1
 
 monitoring:
   psi:                     # cleaned train.csv vs later.csv, 10 bins
