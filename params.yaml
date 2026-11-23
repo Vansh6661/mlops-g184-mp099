@@ -4,3 +4,6 @@ data:
   raw_later_path: "data/raw/later.csv"
   raw_holdout_path: "data/raw/holdout_features.csv"
   target_col: "yield_qtl_per_acre"
+model:
+  experiment_name: "wheat_yield_mp099"
+  registered_name: "mp099_wheat_yield"
