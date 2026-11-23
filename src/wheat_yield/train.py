@@ -2,6 +2,7 @@
 
 import hashlib
 from pathlib import Path
+import joblib
 import mlflow
 import mlflow.sklearn
 from mlflow.tracking import MlflowClient
@@ -81,6 +82,7 @@ def train_models():
 
     best_mae = float("inf")
     best_run_id = None
+    best_pipeline = None
     registered_model_name = "mp099_wheat_yield"
 
     for i, cfg in enumerate(configs, start=1):
@@ -115,6 +117,7 @@ def train_models():
             if mae_val < best_mae:
                 best_mae = mae_val
                 best_run_id = run.info.run_id
+                best_pipeline = pipeline
 
     print("\n" + "=" * 60)
     print(f"Best Run ID: {best_run_id} with MAE: {best_mae:.4f}")
@@ -133,6 +136,14 @@ def train_models():
     )
 
     print(f"Registered model '{registered_model_name}' version {model_version.version} as '@champion'")
+    print("=" * 60)
+
+    # 5. Save the champion model pipeline to models/model.joblib (Handbook Rule 4)
+    models_dir = Path("models")
+    models_dir.mkdir(parents=True, exist_ok=True)
+    model_path = models_dir / "model.joblib"
+    joblib.dump(best_pipeline, model_path)
+    print(f"Saved champion model to {model_path}")
     print("=" * 60)
 
 
